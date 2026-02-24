@@ -727,11 +727,11 @@ if (typeof window !== 'undefined') {
     content.innerHTML = `
       <div id="ai-header">
         <div id="header">
-         <img src="./assets/houses/logo.jpg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2220%22%20fill%3D%22%23333%22%2F%3E%3C%2Fsvg%3E'" />
+         <img src="https://cdn.jsdelivr.net/gh/mahiavincent/prime-nest/assets/houses/logo.jpg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%3E%3Ccircle%20cx%3D%2220%22%20cy%3D%2220%22%20r%3D%2220%22%20fill%3D%22%23333%22%2F%3E%3C%2Fsvg%3E'" />
          Bistro Assistant
         </div>
         <div>
-          <img id="ai-close" src="./assets/icons/close.svg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2218%22%20y1%3D%226%22%20x2%3D%226%22%20y2%3D%2218%22%3E%3C%2Fline%3E%3Cline%20x1%3D%226%22%20y1%3D%226%22%20x2%3D%2218%22%20y2%3D%2218%22%3E%3C%2Fline%3E%3C%2Fsvg%3E'" alt="close" />
+          <img id="ai-close" src="https://cdn.jsdelivr.net/gh/mahiavincent/prime-nest/assets/icons/close.svg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2218%22%20y1%3D%226%22%20x2%3D%226%22%20y2%3D%2218%22%3E%3C%2Fline%3E%3Cline%20x1%3D%226%22%20y1%3D%226%22%20x2%3D%2218%22%20y2%3D%2218%22%3E%3C%2Fline%3E%3C%2Fsvg%3E'" alt="close" />
         </div>
       </div>
       <div id="ai-messages">
@@ -760,7 +760,7 @@ if (typeof window !== 'undefined') {
       <div id="ai-input-area">
         <input id="ai-input" placeholder="Ask about menu, reservations, specials..." />
         <div id="ai-send">
-          <img src="./assets/icons/send.svg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2222%22%20y1%3D%222%22%20x2%3D%2211%22%20y2%3D%2213%22%3E%3C%2Fline%3E%3Cpolygon%20points%3D%2222%202%2015%2022%2011%2013%202%209%2022%202%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E'" alt="send" style="width: 22px; height: 22px;" />
+          <img src="https://cdn.jsdelivr.net/gh/mahiavincent/prime-nest/assets/icons/send.svg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2222%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%222%22%3E%3Cline%20x1%3D%2222%22%20y1%3D%222%22%20x2%3D%2211%22%20y2%3D%2213%22%3E%3C%2Fline%3E%3Cpolygon%20points%3D%2222%202%2015%2022%2011%2013%202%209%2022%202%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E'" alt="send" style="width: 22px; height: 22px;" />
         </div>
       </div>
     `;
@@ -894,7 +894,7 @@ if (typeof window !== 'undefined') {
         messageDiv.innerHTML = `
           <div style="display: flex; align-items: center; justify-content: right; gap: 7px;">
             <span style="border:2px solid rgba(255, 255, 255, 0.7);color:white;padding:8px 15px;border-radius:15px;max-width:70%;">${text}</span>
-            <img src="./assets/menu/beverages/coffee.jpg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%3E%3Ccircle%20cx%3D%2215%22%20cy%3D%2215%22%20r%3D%2215%22%20fill%3D%22%23cccccc%22%2F%3E%3C%2Fsvg%3E'" alt="" style="width: 30px; height: 30px; border-radius: 50%;object-fit: cover;" />
+            <img src="https://cdn.jsdelivr.net/gh/mahiavincent/prime-nest/assets/menu/beverages/coffee.jpg" onerror="this.src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%3E%3Ccircle%20cx%3D%2215%22%20cy%3D%2215%22%20r%3D%2215%22%20fill%3D%22%23cccccc%22%2F%3E%3C%2Fsvg%3E'" alt="" style="width: 30px; height: 30px; border-radius: 50%;object-fit: cover;" />
           </div>
         `;
         messages.appendChild(messageDiv);
@@ -1012,7 +1012,7 @@ if (typeof window !== 'undefined') {
       typingIndicator.style.marginLeft = "-10px";
       
       const typingBubble = document.createElement('div');
-      typingBubble.innerHTML = '<img src="./assets/icons/output-onlinegiftools (2).gif" onerror="this.src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%3E%3Ccircle%20cx%3D%2215%22%20cy%3D%2215%22%20r%3D%2215%22%20fill%3D%22%23cccccc%22%2F%3E%3C%2Fsvg%3E"" alt="" style="width: 120px;"></img>'
+      typingBubble.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/mahiavincent/prime-nest/assets/icons/output-onlinegiftools (2).gif" onerror="this.src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2230%22%20height%3D%2230%22%20viewBox%3D%220%200%2030%2030%22%3E%3Ccircle%20cx%3D%2215%22%20cy%3D%2215%22%20r%3D%2215%22%20fill%3D%22%23cccccc%22%2F%3E%3C%2Fsvg%3E"" alt="" style="width: 120px;"></img>'
       
       typingIndicator.appendChild(typingBubble);
       messages.appendChild(typingIndicator);
