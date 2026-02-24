@@ -1,0 +1,220 @@
+{
+    "company":{
+        "name": "PrimeNest Bistro",
+        "logo": "/assets/logos/primenest-bistro.png",
+        "website":"https://www.primenestbistro.co.ke",
+        "restaurant": {
+            "address": "Westlands, Nairobi, Kenya",
+            "phone": "+254 712 345 678",
+            "email": "reservations@primenestbistro.co.ke",
+            "workingHours": "Mon - Sun: 11:00 AM - 10:00 PM",
+            "cuisine": "Modern African & International",
+            "chef": "Chef Michael Oduor"
+        },
+        "reservationPolicy":{
+            "daysAvailable":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "timeSlots":["12:00 PM", "2:00 PM", "6:00 PM", "8:00 PM"],
+            "bookingNotice":"At least 2 hours before arrival",
+            "maxPartySize": 12,
+            "depositRequired": false
+        }
+    },
+    "menu":[
+        {
+            "id": "menu-001",
+            "category": "Starters",
+            "items": [
+                {
+                    "name": "Grilled Peri-Peri Prawns",
+                    "description": "Succulent prawns grilled with African peri-peri sauce, served with garlic butter",
+                    "price": 850,
+                    "currency": "KES",
+                    "image": "/assets/menu/starters/prawns.jpg",
+                    "dietary": ["Gluten-free option available"],
+                    "popular": true
+                },
+                {
+                    "name": "Samosas Trio",
+                    "description": "Three crispy samosas filled with spiced minced meat, served with tamarind chutney",
+                    "price": 450,
+                    "currency": "KES",
+                    "image": "/assets/menu/starters/samosas.jpg",
+                    "dietary": ["Vegetarian option available"],
+                    "popular": false
+                },
+                {
+                    "name": "Mushroom Crostini",
+                    "description": "Wild mushrooms on toasted baguette with truffle oil and fresh herbs",
+                    "price": 650,
+                    "currency": "KES",
+                    "image": "/assets/menu/starters/mushroom-crostini.jpg",
+                    "dietary": ["Vegetarian"],
+                    "popular": true
+                }
+            ]
+        },
+        {
+            "id": "menu-002",
+            "category": "Main Courses",
+            "items": [
+                {
+                    "name": "Nyama Choma Platter",
+                    "description": "Traditional roasted goat meat served with kachumbari, ugali, and sukuma wiki",
+                    "price": 1850,
+                    "currency": "KES",
+                    "image": "/assets/menu/mains/nyama-choma.jpg",
+                    "dietary": ["Gluten-free"],
+                    "serves": "1-2 people",
+                    "popular": true
+                },
+                {
+                    "name": "Coconut Fish Curry",
+                    "description": "Fresh catch of the day simmered in coconut cream with coastal spices, served with rice",
+                    "price": 1450,
+                    "currency": "KES",
+                    "image": "/assets/menu/mains/fish-curry.jpg",
+                    "dietary": ["Gluten-free"],
+                    "spiceLevel": "Medium",
+                    "popular": true
+                },
+                {
+                    "name": "Beef Wellington",
+                    "description": "Tender beef fillet wrapped in mushroom duxelles and puff pastry, served with red wine sauce",
+                    "price": 2800,
+                    "currency": "KES",
+                    "image": "/assets/menu/mains/beef-wellington.jpg",
+                    "dietary": [],
+                    "popular": false
+                },
+                {
+                    "name": "Vegetable Pilau",
+                    "description": "Fragrant spiced rice with mixed vegetables, served with fresh kachumbari",
+                    "price": 950,
+                    "currency": "KES",
+                    "image": "/assets/menu/mains/vegetable-pilau.jpg",
+                    "dietary": ["Vegan", "Vegetarian", "Gluten-free"],
+                    "popular": true
+                }
+            ]
+        },
+        {
+            "id": "menu-003",
+            "category": "Desserts",
+            "items": [
+                {
+                    "name": "Chocolate Lava Cake",
+                    "description": "Warm chocolate cake with molten center, served with vanilla ice cream",
+                    "price": 650,
+                    "currency": "KES",
+                    "image": "/assets/menu/desserts/lava-cake.jpg",
+                    "dietary": ["Contains nuts"],
+                    "popular": true
+                },
+                {
+                    "name": "Malva Pudding",
+                    "description": "South African-inspired caramelized sponge pudding with cream sauce",
+                    "price": 550,
+                    "currency": "KES",
+                    "image": "/assets/menu/desserts/malva-pudding.jpg",
+                    "dietary": [],
+                    "popular": true
+                },
+                {
+                    "name": "Fresh Fruit Platter",
+                    "description": "Seasonal tropical fruits served with honey and lime",
+                    "price": 450,
+                    "currency": "KES",
+                    "image": "/assets/menu/desserts/fruit-platter.jpg",
+                    "dietary": ["Vegan", "Gluten-free"],
+                    "popular": false
+                }
+            ]
+        },
+        {
+            "id": "menu-004",
+            "category": "Beverages",
+            "items": [
+                {
+                    "name": "Fresh Passion Juice",
+                    "description": "Freshly squeezed passion fruit juice",
+                    "price": 320,
+                    "currency": "KES",
+                    "image": "/assets/menu/beverages/passion-juice.jpg",
+                    "dietary": ["Vegan", "Gluten-free"],
+                    "popular": true
+                },
+                {
+                    "name": "Dawa Cocktail",
+                    "description": "Signature cocktail with vodka, honey, lime, and fresh mint",
+                    "price": 750,
+                    "currency": "KES",
+                    "image": "/assets/menu/beverages/dawa.jpg",
+                    "alcoholic": true,
+                    "popular": true
+                },
+                {
+                    "name": "Kenyan Coffee",
+                    "description": "Freshly brewed AA grade Kenyan coffee",
+                    "price": 280,
+                    "currency": "KES",
+                    "image": "/assets/menu/beverages/coffee.jpg",
+                    "dietary": ["Vegan", "Gluten-free"],
+                    "popular": false
+                }
+            ]
+        }
+    ],
+    "specials": {
+        "happyHour": {
+            "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "time": "5:00 PM - 7:00 PM",
+            "details": "Buy one get one free on selected drinks"
+        },
+        "dailySpecials": [
+            {
+                "day": "Monday",
+                "special": "Half-price on all starters",
+                "available": true
+            },
+            {
+                "day": "Wednesday",
+                "special": "Pasta night - Buy one get one free",
+                "available": true
+            },
+            {
+                "day": "Friday",
+                "special": "Live music and 20% off on main courses",
+                "available": true
+            },
+            {
+                "day": "Sunday",
+                "special": "Family brunch - Kids eat free",
+                "available": true
+            }
+        ]
+    },
+    "reviews": {
+        "averageRating": 4.5,
+        "totalReviews": 342,
+        "topReviews": [
+            {
+                "customer": "Sarah M.",
+                "rating": 5,
+                "comment": "The nyama choma is absolutely incredible! Best in Nairobi.",
+                "date": "2025-01-15"
+            },
+            {
+                "customer": "James K.",
+                "rating": 4,
+                "comment": "Great atmosphere and friendly staff. The coconut fish curry is a must-try.",
+                "date": "2025-01-10"
+            },
+            {
+                "customer": "Linda A.",
+                "rating": 5,
+                "comment": "Perfect date night spot. The service was impeccable and food delicious.",
+                "date": "2025-01-05"
+            }
+        ]
+    }
+}
