@@ -45,7 +45,7 @@ app.post("/chat", async(req, res) => {
         }
 
         // Process images for menu items to include URLs
-        const baseUrl = req.get('origin'); // Change this to your actual domain in production
+        const baseUrl = "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest"; // Change this to your actual domain in production
         
         // Process menu items with images
         const menuWithImages = restaurantData.menu.map(category => ({
