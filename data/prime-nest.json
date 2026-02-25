@@ -29,7 +29,7 @@
                     "description": "Succulent prawns grilled with African peri-peri sauce, served with garlic butter",
                     "price": 850,
                     "currency": "KES",
-                    "image": "/assets/menu/starters/prawns.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/starters/prawns.jpg",
                     "dietary": ["Gluten-free option available"],
                     "popular": true
                 },
@@ -38,7 +38,7 @@
                     "description": "Three crispy samosas filled with spiced minced meat, served with tamarind chutney",
                     "price": 450,
                     "currency": "KES",
-                    "image": "/assets/menu/starters/samosas.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/starters/samosas.jpg",
                     "dietary": ["Vegetarian option available"],
                     "popular": false
                 },
@@ -47,7 +47,7 @@
                     "description": "Wild mushrooms on toasted baguette with truffle oil and fresh herbs",
                     "price": 650,
                     "currency": "KES",
-                    "image": "/assets/menu/starters/mushroom-crostini.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/starters/mushroom-crostini.jpg",
                     "dietary": ["Vegetarian"],
                     "popular": true
                 }
@@ -62,7 +62,7 @@
                     "description": "Traditional roasted goat meat served with kachumbari, ugali, and sukuma wiki",
                     "price": 1850,
                     "currency": "KES",
-                    "image": "/assets/menu/mains/nyama-choma.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/mains/nyama-choma.jpg",
                     "dietary": ["Gluten-free"],
                     "serves": "1-2 people",
                     "popular": true
@@ -72,7 +72,7 @@
                     "description": "Fresh catch of the day simmered in coconut cream with coastal spices, served with rice",
                     "price": 1450,
                     "currency": "KES",
-                    "image": "/assets/menu/mains/fish-curry.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/mains/fish-curry.jpg",
                     "dietary": ["Gluten-free"],
                     "spiceLevel": "Medium",
                     "popular": true
@@ -82,7 +82,7 @@
                     "description": "Tender beef fillet wrapped in mushroom duxelles and puff pastry, served with red wine sauce",
                     "price": 2800,
                     "currency": "KES",
-                    "image": "/assets/menu/mains/beef-wellington.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/mains/beef-wellington.jpg",
                     "dietary": [],
                     "popular": false
                 },
@@ -91,7 +91,7 @@
                     "description": "Fragrant spiced rice with mixed vegetables, served with fresh kachumbari",
                     "price": 950,
                     "currency": "KES",
-                    "image": "/assets/menu/mains/vegetable-pilau.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/mains/vegetable-pilau.jpg",
                     "dietary": ["Vegan", "Vegetarian", "Gluten-free"],
                     "popular": true
                 }
@@ -106,7 +106,7 @@
                     "description": "Warm chocolate cake with molten center, served with vanilla ice cream",
                     "price": 650,
                     "currency": "KES",
-                    "image": "/assets/menu/desserts/lava-cake.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/desserts/lava-cake.jpg",
                     "dietary": ["Contains nuts"],
                     "popular": true
                 },
@@ -115,7 +115,7 @@
                     "description": "South African-inspired caramelized sponge pudding with cream sauce",
                     "price": 550,
                     "currency": "KES",
-                    "image": "/assets/menu/desserts/malva-pudding.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/desserts/malva-pudding.jpg",
                     "dietary": [],
                     "popular": true
                 },
@@ -124,7 +124,7 @@
                     "description": "Seasonal tropical fruits served with honey and lime",
                     "price": 450,
                     "currency": "KES",
-                    "image": "/assets/menu/desserts/fruit-platter.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/desserts/fruit-platter.jpg",
                     "dietary": ["Vegan", "Gluten-free"],
                     "popular": false
                 }
@@ -139,7 +139,7 @@
                     "description": "Freshly squeezed passion fruit juice",
                     "price": 320,
                     "currency": "KES",
-                    "image": "/assets/menu/beverages/passion-juice.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/beverages/passion-juice.jpg",
                     "dietary": ["Vegan", "Gluten-free"],
                     "popular": true
                 },
@@ -148,7 +148,7 @@
                     "description": "Signature cocktail with vodka, honey, lime, and fresh mint",
                     "price": 750,
                     "currency": "KES",
-                    "image": "/assets/menu/beverages/dawa.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/beverages/dawa.jpg",
                     "alcoholic": true,
                     "popular": true
                 },
@@ -157,7 +157,7 @@
                     "description": "Freshly brewed AA grade Kenyan coffee",
                     "price": 280,
                     "currency": "KES",
-                    "image": "/assets/menu/beverages/coffee.jpg",
+                    "image": "https://rojftvtvfvpagbqtsbjx.supabase.co/storage/v1/object/public/prime-nest/assets/menu/beverages/coffee.jpg",
                     "dietary": ["Vegan", "Gluten-free"],
                     "popular": false
                 }
